@@ -1,0 +1,315 @@
+	body{
+		
+		z-index: -1;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+
+/*botao*/
+ input[type="submit"]
+	{
+  	outline: none;border: none;width: 45%;  height: 35px; color:  #fff;background-color: #265225;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 5px;
+	}
+	input[type="reset"]{
+		outline: none;border: none;width: 45%;  height: 35px; color:  #fff;background-color: #912d30;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 5px;
+	}
+
+	.adc input[type="submit"]
+	{
+  	outline: none;border: none;width: 45%;  height: 35px; color:  #fff;background-color: #4b5c9c;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 5px;
+	}
+
+.sas button, .sas input[type="submit"],.sas [type='submit']{
+	outline: none;border: none;width: 45%;  height: 35px; color:  #fff;background-color: #265225;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 5px;
+}
+
+.sas input[type="reset"],.sas [type='reset']{
+	outline: none;border: none;width: 45%;  height: 35px; color:  #fff;background-color: #912d30;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 10px;
+}
+	.cli button:hover
+	{
+  	background-color: #5368b5;
+	}
+	.att button{
+		outline: none;border: none;width: 75%;  height: 35px; color:  #fff;background-color: #265225;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 10px;
+	}
+	.cli button{
+		outline: none;border: none;width: 45%;  height: 35px; color:  #fff;background-color: #4b5c9c;cursor:pointer; border-radius: 6px;text-align: center;
+	}
+	.att1 button{
+		outline: none;border: none;width: 75%;  height: 35px; color:  #fff;background-color: #265225;cursor:pointer; border-radius: 6px;text-align: center;
+	}
+.reativo button{
+	outline: none;border: none;width: 75%;  height: 35px; color:  #fff;background-color: #4b5c9c;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 10px;
+}
+.reativo button:hover{
+	background-color: #5368b5;
+}
+
+.att button:hover{
+	background-color: #2f662e;
+}
+.att1 button:hover{
+	background-color: #2f662e;
+}
+.desativo button{
+	outline: none;border: none;width: 75%;  height: 35px; color:  #fff;background-color: #912d30;cursor:pointer; border-radius: 6px;text-align: center;margin-left: 10px;
+}
+
+.desativo button:hover{
+	background-color: #b03538;
+}
+
+
+.spun{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	display: block;
+
+}
+.spun{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	display: block;
+
+}
+.sumiu{
+	display: none;
+}
+.spunh{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+
+}
+.spuncp{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+
+}
+.spuncc{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+
+}
+.spunc{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+
+}
+.spunn{
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+
+}
+.spunn{
+
+	top: 15%;
+	left: 30%
+
+}
+
+.admt {
+			width: 1750px;
+			margin-top: 7px;
+			border-radius: 10px;
+			margin-left:8%;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+	.spun .table{
+    margin: 0;
+    padding: 0;
+    float: left;
+ 	height: 150px;
+ 	width: 400px;
+	margin-top: 10px;
+    z-index: -1;
+	border-radius: 10px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+		
+	.spunh .table{
+		margin: 0;
+		padding: 0;
+		float: left;
+		 height: 150px;
+		 width: 400px;
+		margin-top: 10px;
+		z-index: -1;
+		border-radius: 10px;
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+		
+		.spuncp .table{
+			margin: 0;
+			padding: 0;
+			float: left;
+			 height: 150px;
+			 width: 400px;
+			margin-top: 10px;
+			z-index: -1;
+			border-radius: 10px;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+	
+thead{
+	background: rgba(75, 92, 156); 
+	font-weight: 600;
+}
+
+	.table tbody{
+
+}
+th{
+	color: white;
+	height: 40px;
+	border-right: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	
+}
+
+.admt p{
+	color: white;
+	margin-left: 1px;
+
+}
+
+td{
+	border-right: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	height: 60px;
+	font-weight: 600;
+	
+	
+}
+tr{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border-left: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	
+}
+.still{
+	position: absolute; left: 35%; margin-top: 25px; z-index: -1;
+}
+
+.stillad{
+	width: 650px;position: absolute; left: 33%; margin-top: 25px; 
+}
+.stilll{
+	position: absolute; left: 35%; margin-top: 60px; z-index: -1;
+}
+.spun{
+	margin-top:450px;
+	margin-left: 25%;
+}
+.spuncc{
+	margin-top:450px;
+	margin-left: 24%;
+}
+.spunc{
+	margin-top:410px;
+	margin-left: 20%;
+}
+.spunh{
+	margin-top:480px;
+	margin-left: 30%;
+}
+.spuncp{
+	margin-top:470px;
+	margin-left: 30%;
+}
+.h22{
+	position:absolute; 
+	margin-top: 25px; margin-left:32%; z-index: -1;
+	font-size: 20px;
+}
+.h30{
+	position:absolute; 
+	margin-top: 25px; left:25%; z-index: -1;
+	font-size: 20px;
+}
+.consulta-bt{
+	outline: none;
+	border: none;
+	width: 80%;  
+	height: 32px; 
+	color:  #fff;
+	
+	cursor:pointer; 
+	border-radius: 6px;
+	text-align: center;
+	margin-left: 5px;
+	text-decoration: none;
+
+}
+@media (max-width: 1170px){
+
+	.stillad{
+		left: 18%;
+	}
+	.still{
+		left: 25%;
+		margin-top: 25px;
+		height: 500px;
+	}
+	.stilll{
+		left: 25%;
+		margin-top:100px;
+		height: 500px;
+	}
+.spun{
+	margin-left: 5%;
+		margin-top: 450px;
+}
+.spunn{
+	left: 5%;	
+	top: 7%;
+}
+.spuncp{
+	margin-left: 20%;
+	margin-top: 490px;
+}
+.spuncc{
+	margin-top:450px;
+	margin-left: 5%;
+}
+.spunc{
+	margin-left: 1%;
+	margin-top: 410px;
+}
+ .h22
+{margin-left: 17%;font-size: 20px;}
+
+	.h30
+	{left: 10%;}
+	.admt
+	{
+		width: 950px;
+		margin-left:1%;
+	}	
+	.att button{
+		width: 90%;margin-left: 4%;
+	}
+	.reativo button{
+		width: 90%;margin-left: 4%;
+		
+	}
+	.desativo button{
+		width: 90%;margin-left: 4%;
+	}
+	.cli button{
+		width: 90%;
+	}
+}
+
